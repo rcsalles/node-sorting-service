@@ -4,9 +4,14 @@
 
 
 1 - Clone o repositório
+```sh
+$ git clone https://github.com/rcsalles/node-sorting-service.git
+```
 
 2 - Vá até a raiz do projeto
-
+```sh
+$ cd node-sorting-service
+```
 3.1 - Testar com docker + makefile basta usar o comando:
 ```sh
 $ make test-app
@@ -20,5 +25,5 @@ ou
 ```sh
 $ make run-app
 ```
-
+3.2.2 - Fazer as requisições pelo insomnia
 
